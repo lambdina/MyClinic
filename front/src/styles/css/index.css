@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-family-karla {
+  font-family: karla, serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,0.4724090319721639) 0%, rgba(253,187,45,0.5200280795912116) 100%)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
