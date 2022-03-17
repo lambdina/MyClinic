@@ -38,3 +38,15 @@ cd front; npm i
 npm run start
 ```
 And you should see the website running on http://localhost:3000. Enjoy!
+
+### There is nothing on the Database
+If you want to add clinical trials in the database, You can do it the following way :
+```python
+>>> import requests
+>>> url = "http://localhost:5000/clinical_trial"
+>>> res = requests.post(url, data={"id_bis": "NCT06", "speciality": "Thoracique", "organ": "poumon", "situation": "Métastatique"})
+```
+* **poumon** means lung
+* **Métastatique** means metastatic
+* **Thoracique** means thoracic, chest
+
